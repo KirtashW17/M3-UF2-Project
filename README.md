@@ -14,6 +14,6 @@ Date of release: The date remains to be specified.
 - Add file chooser(multiple files accepted)
 - Create a functional login window and mail window
 
-###TODO:
+### TODO:
 All the things to do are in the following Trello link:
 https://trello.com/b/d1vHHZKZ/m3-uf2-project
