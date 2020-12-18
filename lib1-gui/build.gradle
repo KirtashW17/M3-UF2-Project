@@ -2,15 +2,20 @@ apply plugin: 'java'
 apply plugin: 'maven-publish'
 
 group = 'dam.tscalise_jferrando'
-version = '1.0'
+version = '1.1'
+
+
 
 task sourceJar(type: Jar) {
     from sourceSets.main.allJava
 }
 
 repositories {
+    mavenCentral()
     maven {
         url myMavenRepoReadUrl
+
+
 
         credentials {
             username myMavenRepoReadUsername
@@ -40,4 +45,11 @@ publishing {
             }
         }
     }
+}
+
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/commons-codec/commons-codec
+    compile group: 'commons-codec', name: 'commons-codec', version: '1.15'
 }

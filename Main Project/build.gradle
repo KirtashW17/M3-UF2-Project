@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'dam.tscalise_jferrando'
+version '1.0'
+
+repositories {
+    mavenCentral()
+    maven {
+        url myMavenRepoReadUrl
+
+
+
+        credentials {
+            username myMavenRepoReadUsername
+            password myMavenRepoReadPassword
+        }
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'dam.tscalise_jferrando:M3_UF2_Project-lib1-gui:1.3'
+
+}
