@@ -1,0 +1,55 @@
+apply plugin: 'java'
+apply plugin: 'maven-publish'
+
+group = 'dam.tscalise_jferrando'
+version = '2.2'
+
+
+
+task sourceJar(type: Jar) {
+    from sourceSets.main.allJava
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url myMavenRepoReadUrl
+
+
+
+        credentials {
+            username myMavenRepoReadUsername
+            password myMavenRepoReadPassword
+        }
+    }
+}
+
+publishing {
+    repositories {
+        maven {
+            url myMavenRepoWriteUrl
+
+            credentials {
+                username myMavenRepoWriteUsername
+                password myMavenRepoWritePassword
+            }
+        }
+    }
+
+    publications {
+        maven(MavenPublication) {
+            from components.java
+
+            artifact sourceJar {
+                classifier "sources"
+            }
+        }
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
+    // https://mvnrepository.com/artifact/commons-codec/commons-codec
+    compile group: 'commons-codec', name: 'commons-codec', version: '1.15'
+}

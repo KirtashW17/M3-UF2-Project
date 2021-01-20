@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dam.tscalise_jferrando",
+    "module": "M3_UF2_lib2-sendMail",
+    "version": "2.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "uxqtdhrjdjam7n7mvzlhxcamii"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.sun.mail",
+          "module": "javax.mail",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "dam.tscalise_jferrando",
+          "module": "M3_UF2_lib3-FileIO",
+          "version": {
+            "requires": "2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "M3_UF2_lib2-sendMail-2.5.jar",
+          "url": "M3_UF2_lib2-sendMail-2.5.jar",
+          "size": 3650,
+          "sha512": "02c42998cb266881478d250a4a72e41c7129286223c1faf207452d91f35a4f0bf25bb9bfb88386ea97223b59836615564920d994c537d9b7ec2f0fee2d1e3c59",
+          "sha256": "4403045d28a45026f97c2c625b9b9c8e7f418d4d058bcb905c0e97892fab6238",
+          "sha1": "958f60d9530c6bd3e0d726c8961d028063d77ba9",
+          "md5": "c3303ff5d1ea4afbcb715632980af5a8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.sun.mail",
+          "module": "javax.mail",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "dam.tscalise_jferrando",
+          "module": "M3_UF2_lib3-FileIO",
+          "version": {
+            "requires": "2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "M3_UF2_lib2-sendMail-2.5.jar",
+          "url": "M3_UF2_lib2-sendMail-2.5.jar",
+          "size": 3650,
+          "sha512": "02c42998cb266881478d250a4a72e41c7129286223c1faf207452d91f35a4f0bf25bb9bfb88386ea97223b59836615564920d994c537d9b7ec2f0fee2d1e3c59",
+          "sha256": "4403045d28a45026f97c2c625b9b9c8e7f418d4d058bcb905c0e97892fab6238",
+          "sha1": "958f60d9530c6bd3e0d726c8961d028063d77ba9",
+          "md5": "c3303ff5d1ea4afbcb715632980af5a8"
+        }
+      ]
+    }
+  ]
+}

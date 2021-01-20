@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dam.tscalise_jferrando",
+    "module": "M3_UF2_lib3-FileIO",
+    "version": "2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "ogzcviwpebdi5mdpmvd3fnohw4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.googlecode.json-simple",
+          "module": "json-simple",
+          "version": {
+            "requires": "1.1"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.15"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "M3_UF2_lib3-FileIO-2.2.jar",
+          "url": "M3_UF2_lib3-FileIO-2.2.jar",
+          "size": 3473,
+          "sha512": "a8a604f5fbefa384174e4f2fa9fbbdb0e97d8471e9377c3611f64d8126fee41defd11ad6bdccd104f693a791dc637bf5c5e569847977a3ed3db06e884fe9b27a",
+          "sha256": "11bb4431667b8a9575e0b997f259da9ec2a2fc7e28947d0ee045e88fa0d886d2",
+          "sha1": "d312717da7c67ca5afa9a1cc0e3ce01a5bb1e1d3",
+          "md5": "2d096c76a9178beb76ed9abf7da8f4c6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.googlecode.json-simple",
+          "module": "json-simple",
+          "version": {
+            "requires": "1.1"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.15"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "M3_UF2_lib3-FileIO-2.2.jar",
+          "url": "M3_UF2_lib3-FileIO-2.2.jar",
+          "size": 3473,
+          "sha512": "a8a604f5fbefa384174e4f2fa9fbbdb0e97d8471e9377c3611f64d8126fee41defd11ad6bdccd104f693a791dc637bf5c5e569847977a3ed3db06e884fe9b27a",
+          "sha256": "11bb4431667b8a9575e0b997f259da9ec2a2fc7e28947d0ee045e88fa0d886d2",
+          "sha1": "d312717da7c67ca5afa9a1cc0e3ce01a5bb1e1d3",
+          "md5": "2d096c76a9178beb76ed9abf7da8f4c6"
+        }
+      ]
+    }
+  ]
+}

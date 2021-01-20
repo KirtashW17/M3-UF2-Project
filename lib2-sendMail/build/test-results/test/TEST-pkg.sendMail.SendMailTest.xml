@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pkg.sendMail.SendMailTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-01-08T20:19:31" hostname="thomas-swiftsf31454" time="4.057">
+  <properties/>
+  <testcase name="testSendMailBadAddress" classname="pkg.sendMail.SendMailTest" time="0.027"/>
+  <testcase name="testAttached" classname="pkg.sendMail.SendMailTest" time="2.599"/>
+  <testcase name="testSendMail" classname="pkg.sendMail.SendMailTest" time="1.43"/>
+  <system-out><![CDATA[Correo enviado con éxito
+Correo enviado con éxito
+]]></system-out>
+  <system-err><![CDATA[El correo electrónico no se pudo enviar! Revisa la dirección de destino
+]]></system-err>
+</testsuite>

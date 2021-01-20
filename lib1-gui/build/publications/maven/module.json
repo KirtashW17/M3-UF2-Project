@@ -2,8 +2,8 @@
   "formatVersion": "1.1",
   "component": {
     "group": "dam.tscalise_jferrando",
-    "module": "M3_UF2_Project-lib1-gui",
-    "version": "1.1",
+    "module": "M3_UF2_lib1-gui",
+    "version": "3.3",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.3",
-      "buildId": "tdd67hkq2bfxzofijorbteg4aq"
+      "buildId": "pxheljjotnaxzbrjshynycxevi"
     }
   },
   "variants": [
@@ -24,15 +24,24 @@
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
+      "dependencies": [
+        {
+          "group": "dam.tscalise_jferrando",
+          "module": "M3_UF2_lib2-sendMail",
+          "version": {
+            "requires": "2.5"
+          }
+        }
+      ],
       "files": [
         {
-          "name": "M3_UF2_Project-lib1-gui-1.1.jar",
-          "url": "M3_UF2_Project-lib1-gui-1.1.jar",
-          "size": 2251,
-          "sha512": "99194ccec4a50ab3f61440cbd710c4b9f7eed949d58c08b7de5f08d547b49b057e73e9b28fc9320ee2f4edbc4134bbe9b352e2a5717fb46357a4c4d1c2cedc86",
-          "sha256": "c80e304bb2b39ae029c8c64cce464dbb4118f34bb971e72f8d3e93316914fb0a",
-          "sha1": "9217ed4de6f60184c3f708eafa720ddf3867ce93",
-          "md5": "2e493ae32d0b204adaab1d5333288202"
+          "name": "M3_UF2_lib1-gui-3.3.jar",
+          "url": "M3_UF2_lib1-gui-3.3.jar",
+          "size": 25973,
+          "sha512": "a6c5ea172368a326489b75242d274b1b8e2b4ea75de882ce008f8e003cd148e0284124f0c6d38a6ff8b542bfdfb96c33da16e025757829518afbe5be9d54078a",
+          "sha256": "abd679e2a04fc3204caf7ed4169c3ad5ed786297145761b0422b160aa09d21bb",
+          "sha1": "ff43b7b6ef27370d0d74196ea9aa9104ca5de0c1",
+          "md5": "a7158067db0aff3682b1a5c202f5ddb2"
         }
       ]
     },
@@ -45,15 +54,24 @@
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
+      "dependencies": [
+        {
+          "group": "dam.tscalise_jferrando",
+          "module": "M3_UF2_lib2-sendMail",
+          "version": {
+            "requires": "2.5"
+          }
+        }
+      ],
       "files": [
         {
-          "name": "M3_UF2_Project-lib1-gui-1.1.jar",
-          "url": "M3_UF2_Project-lib1-gui-1.1.jar",
-          "size": 2251,
-          "sha512": "99194ccec4a50ab3f61440cbd710c4b9f7eed949d58c08b7de5f08d547b49b057e73e9b28fc9320ee2f4edbc4134bbe9b352e2a5717fb46357a4c4d1c2cedc86",
-          "sha256": "c80e304bb2b39ae029c8c64cce464dbb4118f34bb971e72f8d3e93316914fb0a",
-          "sha1": "9217ed4de6f60184c3f708eafa720ddf3867ce93",
-          "md5": "2e493ae32d0b204adaab1d5333288202"
+          "name": "M3_UF2_lib1-gui-3.3.jar",
+          "url": "M3_UF2_lib1-gui-3.3.jar",
+          "size": 25973,
+          "sha512": "a6c5ea172368a326489b75242d274b1b8e2b4ea75de882ce008f8e003cd148e0284124f0c6d38a6ff8b542bfdfb96c33da16e025757829518afbe5be9d54078a",
+          "sha256": "abd679e2a04fc3204caf7ed4169c3ad5ed786297145761b0422b160aa09d21bb",
+          "sha1": "ff43b7b6ef27370d0d74196ea9aa9104ca5de0c1",
+          "md5": "a7158067db0aff3682b1a5c202f5ddb2"
         }
       ]
     }
